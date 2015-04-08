@@ -1,0 +1,151 @@
+
+			<div class="row">
+				<div class="col-md-9">
+					<h2>Последние картинки</h2>
+					<ul class="list" id="container">
+						<li class="item">
+							<div class="itemWrapper">
+								<a href="article.html">
+									<img src="img/01.jpg" alt="">
+									<p>Гомер в бассейне с пивом</p>
+								</a>
+							</div>
+						</li>
+						<li class="item">
+							<div class="itemWrapper">
+							<p>
+								<a href="#" data-toggle="modal" data-target="#myModal">
+									<img src="img/02.jpg" alt="">
+									Мистерн Бернс злой
+								</a>
+							</p>
+							</div>
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Мистерн Бернс злой</h4>
+      </div>
+      <div class="modal-body">
+        <img src="img/02.jpg" alt="" width="100%">
+        <p class="text-left lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias rem, sint maxime qui saepe consequuntur, aliquid at eveniet harum perferendis ad ut officiis veniam eos possimus sunt totam, velit omnis!</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+						</li>
+						<li class="item">
+							<div class="itemWrapper">
+								<img src="img/03.jpg" alt="">
+								<p>Совесть Гомера замучила, справа плохой, слева хороший</p>
+							</div>
+						</li>
+						<li class="item">
+							<div class="itemWrapper">
+								<img src="img/04.jpg" alt="">
+								<p>Мардж влюбленна и мечтает о будующем</p>
+							</div>
+						</li>
+						<li class="item">
+							<div class="itemWrapper">
+								<img src="img/05.jpg" alt="">
+								<p>Просто Милхауз, который любит Лизу</p>
+							</div>
+						</li>
+						<li class="item">
+							<div class="itemWrapper">
+								<img src="img/06.jpg" alt="">
+								<p>Деловая Лиза, решает произвести переворот</p>
+							</div>
+						</li>
+						<li class="item">
+							<div class="itemWrapper">
+								<img src="img/07.jpg" alt="">
+								<p>Плохой Барт, ест шоколадный батончик Сникерс</p>
+							</div>
+						</li>
+						<li class="item">
+							<div class="itemWrapper">
+								<img src="img/08.jpg" alt="">
+								<p>Семейное фото Симпсонов возле дома</p>
+							</div>
+						</li>
+						<li class="item">
+							<div class="itemWrapper">
+								<img src="img/06.jpg" alt="">
+								<p>Просто Милхауз</p>
+							</div>
+						</li>
+						<li class="item">
+							<div class="itemWrapper">
+								<img src="img/01.jpg" alt="">
+								<p>Гомер в бассейне</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="col-md-3">
+					<h3>Последние записи</h3>
+					<div class="media">
+						<div class="media-left media-middle">
+							<a href="#">
+								<img class="media-object" style="width: 64px; height: 64px;" src="img/01.jpg">
+							</a>
+						</div>
+						<div class="media-body" style="vertical-align:middle">
+							<h5 class="media-heading">Пиво Дафф лучшее пиво в области</h5>
+						</div>
+					</div>
+					<div class="media">
+						<div class="media-left media-middle">
+							<a href="#">
+								<img class="media-object" style="width: 64px; height: 64px;" src="img/02.jpg">
+							</a>
+						</div>
+						<div class="media-body" style="vertical-align:middle">
+							<h5 class="media-heading">Пиво Дафф лучшее пиво в области</h5>
+						</div>
+					</div>
+					<div class="media">
+						<div class="media-left media-middle">
+							<a href="#">
+								<img class="media-object" style="width: 64px; height: 64px;" src="img/03.jpg">
+							</a>
+						</div>
+						<div class="media-body" style="vertical-align:middle">
+							<h5 class="media-heading">Гомер и его совесть, справа плохой, слева хороший</h5>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+    <footer class="footer">
+      <div class="container">
+        <p class="text-muted">Place sticky footer content here.</p>
+      </div>
+    </footer>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/masonry.pkgd.min.js"></script>
+	<script>
+		$(window).load(function(){
+			var container = document.querySelector('#container');
+			var msnry = new Masonry( container, {
+				// options
+				itemSelector: '.item'
+			});
+		});
+	</script>
+  </body>
+</html>

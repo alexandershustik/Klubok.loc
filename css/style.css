@@ -1,3 +1,12 @@
+img{
+	width: 100%;
+}
+.caption{
+	padding: 9px;
+}
+.wrap{
+	margin: 15px 0;
+}
 .list{
 	padding-left: 0;
 	list-style: none;
@@ -15,8 +24,6 @@
 	padding: 10px;
 }
 .media{
-	background: #f0f0f0;
-	border-radius: 4px;
 	margin: 10px 0;	
 }
 .list li{
@@ -44,7 +51,7 @@ body {
   margin-bottom: 60px;
   padding-top: 70px;
 }
-.footer {
+footer {
   position: absolute;
   bottom: 0;
   width: 100%;
